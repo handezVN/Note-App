@@ -21,7 +21,7 @@ function App() {
       }
     } 
     checkLogin()
-  })
+  },[])
   return (
     <div className="App">
       {
